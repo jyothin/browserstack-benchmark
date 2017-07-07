@@ -1,6 +1,7 @@
-.metadata
+.metadata/*
 .recommenders
 .DS_Store
+.gitignore
 browsers_bs.json
 browsers_bs.txt
 combinations_sl.json
