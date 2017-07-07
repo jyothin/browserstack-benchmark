@@ -8,11 +8,11 @@ Code uses maven-surefire-plugin to run tests in parallel.
 
 ## Configuration
 * Change environment variables in `export_keys.sh` file
-  * SAUCE\_USERNAME - set to Sauce labs username
-  * SAUCE\_ACCESS\_KEY - set to user Sauce labs access key
-  * BROWSERSTACK\_USERNAME - set to browserstack username
-  * BROWSERSTACK\_ACCESS\_KEY - set to browserstack access key
-  * BUILD\_TAG - set build tag
+  * `SAUCE_USERNAME` - set to Sauce labs username
+  * `SAUCE_ACCESS_KEY` - set to user Sauce labs access key
+  * `BROWSERSTACK_USERNAME` - set to browserstack username
+  * `BROWSERSTACK_ACCESS_KEY` - set to browserstack access key
+  * `BUILD_TAG` - set build tag
 
 * Source enviroment variables with
 
@@ -42,4 +42,8 @@ parallel tests.
 * `TestSuite3` consists of Octane tests
 * Comment `@Ignore` before each class to run test in the test suite.
 
+## Test Results
+* Surefire report is at `target/site/surefire-report.html`
+* Are logged in `src/test/resources/bs_test.html` for Browserstack tests. Import the data into a Google spreadsheet to view the test data.
+* Are logged in `src/test/resources/sl_test.html` for Suace Labs tests. Import the data into a Google spreadsheet to view the test data.
 
