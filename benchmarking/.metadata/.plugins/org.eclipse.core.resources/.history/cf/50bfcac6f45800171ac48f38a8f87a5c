@@ -1,0 +1,26 @@
+package com.browserstack.benchmark;
+
+import java.net.URL;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class App {
+
+  public static final String username = System.getenv("SAUCE_USERNAME");
+  public static final String accessKey = System.getenv("SAUCE_ACCESS_KEY");
+  public static final String url = "https://" + username + ":" + accessKey + "@ondemand.saucelabs.com:443/wd/hub";
+
+  public static void main( String[] args ) {
+    DesiredCapabilities caps = DesiredCapabilities.chrome();
+    caps.setCapability("platform", "Windows XP");
+    caps.setCapability("version", "43.0");
+
+    WebDriver driver = new RemoteWebDriver(new URL(url), caps);
+
+    driver.get("https://saucelabs.com/text/guinea-pig");
+
+    System.out.println(driver.getTitle());
+  }
+}

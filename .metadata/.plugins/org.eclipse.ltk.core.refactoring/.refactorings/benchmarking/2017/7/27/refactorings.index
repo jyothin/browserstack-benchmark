@@ -1,0 +1,29 @@
+1499078689562	Rename type 'TestSuite3'
+1499078728776	Rename type 'TestSuite1'
+1499157890233	Rename type 'PerformanceTests'
+1499157914857	Rename type 'SeleniumTest'
+1499157926805	Rename type 'OneBigTest'
+1499158027487	Copy compilation unit
+1499159076595	Rename type 'ParallelTestBase'
+1499165529397	Delete element
+1499165693170	Move compilation unit
+1499165715926	Move compilation unit
+1499166273735	Move package
+1499166304123	Copy compilation unit
+1499166328280	Move package
+1499166383613	Infer generic type arguments
+1499166407628	Move compilation unit
+1499167635010	Move compilation unit
+1499169072217	Move compilation unit
+1499169079098	Move compilation units
+1499169104945	Rename package 'com.browserstack.benchmark.Tests'
+1499169115795	Rename package 'com.browserstack.benchmark.Pages'
+1499169129547	Rename package 'com.browserstack.benchmark.bs'
+1499169150309	Rename package 'saucelabs'
+1499188497178	Copy compilation unit
+1499192296471	Copy compilation unit
+1499233104060	Copy compilation unit
+1499234817443	Copy compilation unit
+1499246394411	Delete elements
+1499247534801	Delete elements
+1499264702856	Delete element

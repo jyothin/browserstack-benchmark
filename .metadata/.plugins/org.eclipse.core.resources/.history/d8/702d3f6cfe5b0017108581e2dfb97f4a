@@ -1,0 +1,53 @@
+package com.browserstack.benchmark;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class App {
+  public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
+  public static final String ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
+  public static final String BROWSERSTACK_URL = "https://" + 
+      USERNAME + ":" +
+      ACCESS_KEY + ":"+
+      "@hub-cloud.browserstack.com/wd/hub";
+  
+    public static void main( String[] args ) throws InterruptedException {
+      
+      System.setProperty("webdriver.chrome.driver",  "/Users/Jyothin/bin/chromedriver");
+      
+      WebDriver driver = null;
+      
+      //DesiredCapabilities chromeCaps = new ChromeOptions();
+      //driver = new ChromeDriver(chromeCaps);
+      
+      DesiredCapabilities realMobileCaps = new DesiredCapabilities();
+      realMobileCaps.setCapability("os", "android");
+      realMobileCaps.setCapability("os_version", "");
+      realMobileCaps.setCapability("browserName", "android");
+      realMobileCaps.setCapability("device", "Google Pixel");
+      realMobileCaps.setCapability("realMobile", "true");
+      try {
+        driver = new RemoteWebDriver(new URL(BROWSERSTACK_URL), realMobileCaps);
+      } catch (MalformedURLException e) {
+        System.out.println(e.getMessage());
+        //e.printStackTrace();
+      }
+      driver.get("http://www.google.com");
+      System.out.println(driver.getTitle());
+      driver.findElement(By.name("q")).sendKeys("BrowserStack");
+      driver.findElement(By.name("btnG")).click();
+      System.out.println(driver.getTitle());
+      Thread.sleep(5 * 1000);
+      driver.get("http://example.com");
+      System.out.println(driver.getTitle());
+      Thread.sleep(5 * 1000);
+      driver.quit();
+      
+      System.out.println( "Hello World!" );
+    }
+}

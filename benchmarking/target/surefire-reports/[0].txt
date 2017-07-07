@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: [0]
+-------------------------------------------------------------------------------
+Tests run: 68, Failures: 9, Errors: 9, Skipped: 1, Time elapsed: 1,179.656 s <<< FAILURE! - in [0]
+verifyScreenshotTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 84.051 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyScreenshotTest(TestSuite2.java:772)
+
+verifyCloseCurrentWindowTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 71.621 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyCloseCurrentWindowTest(TestSuite2.java:942)
+
+verifyKeyDownAndUpTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 27.393 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyKeyDownAndUpTest(TestSuite2.java:693)
+
+verifyAlertTextTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 708.03 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'JYOTHIN-MBP.local', ip: 'fe80:0:0:0:c6b3:1ff:fec2:cb65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000.0, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=11, nativeEvents=true, elementScrollBehavior=0.0, webdriver.remote.sessionid=fc1d34baec6141128563d22d1a56cb8b, initialBrowserUrl=about:blank, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: fc1d34baec6141128563d22d1a56cb8b
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyAlertTextTest(TestSuite2.java:375)
+Caused by: org.apache.http.NoHttpResponseException: ondemand.saucelabs.com:443 failed to respond
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyAlertTextTest(TestSuite2.java:375)
+
+verifyDragAndDropTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 93.499 s  <<< FAILURE!
+java.lang.AssertionError: Values should be different. Actual: 9
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyDragAndDropTest(TestSuite2.java:653)
+
+verifyControlKeyDownTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 130.597 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyControlKeyDownTest(TestSuite2.java:1039)
+
+verifyHoldAndReleaseTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 451.121 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyHoldAndReleaseTest(TestSuite2.java:706)
+
+verifyGetLocalStorageSizeTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 507.965 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyGetLocalStorageSizeTest(TestSuite2.java:992)
+
+verifyAlertDismissTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 352.079 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Due to a previous error, this job has already finished. You can learn more at https://saucelabs.com/jobs/2019179d73be4defb39799a6fde2654a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 304.80 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'JYOTHIN-MBP.local', ip: 'fe80:0:0:0:c6b3:1ff:fec2:cb65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000.0, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=11, nativeEvents=true, elementScrollBehavior=0.0, webdriver.remote.sessionid=2019179d73be4defb39799a6fde2654a, initialBrowserUrl=about:blank, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: 2019179d73be4defb39799a6fde2654a
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyAlertDismissTest(TestSuite2.java:400)
+
+verifyActionClickTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 521.636 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "Google". Current title: "Selenium playground" (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'JYOTHIN-MBP.local', ip: 'fe80:0:0:0:c6b3:1ff:fec2:cb65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000.0, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=11, nativeEvents=true, elementScrollBehavior=0.0, webdriver.remote.sessionid=6b6b09d8518042de827934efe3973728, initialBrowserUrl=about:blank, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: 6b6b09d8518042de827934efe3973728
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyActionClickTest(TestSuite2.java:633)
+
+verifyAlertDismissTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Due to a previous error, this job has already finished. You can learn more at https://saucelabs.com/jobs/2019179d73be4defb39799a6fde2654a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 351 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'JYOTHIN-MBP.local', ip: 'fe80:0:0:0:c6b3:1ff:fec2:cb65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000.0, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=11, nativeEvents=true, elementScrollBehavior=0.0, webdriver.remote.sessionid=2019179d73be4defb39799a6fde2654a, initialBrowserUrl=about:blank, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: 2019179d73be4defb39799a6fde2654a
+
+verifyImplicitWaitTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 209.035 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyImplicitWaitTest(TestSuite2.java:789)
+
+verifyElementMoveInTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 174.594 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Hover in]> but was:<[]>
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyElementMoveInTest(TestSuite2.java:594)
+
+verifyClearLocalStorageTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 105.84 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyClearLocalStorageTest(TestSuite2.java:979)
+
+verifyLocalStorageKeyTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 105.691 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyLocalStorageKeyTest(TestSuite2.java:964)
+
+verifyAlertAcceptTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 410.675 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Due to a previous error, this job has already finished. You can learn more at https://saucelabs.com/jobs/1893736943634164a9ad6f61750b6aba (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 305.16 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'JYOTHIN-MBP.local', ip: 'fe80:0:0:0:c6b3:1ff:fec2:cb65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000.0, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=11, nativeEvents=true, elementScrollBehavior=0.0, webdriver.remote.sessionid=1893736943634164a9ad6f61750b6aba, initialBrowserUrl=about:blank, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: 1893736943634164a9ad6f61750b6aba
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyAlertAcceptTest(TestSuite2.java:388)
+
+verifyExplicitWaitTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 109.468 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.browserstack.benchmark.saucelabs.TestSuite2.verifyExplicitWaitTest(TestSuite2.java:808)
+
+verifyAlertAcceptTest[0](com.browserstack.benchmark.saucelabs.TestSuite2)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Due to a previous error, this job has already finished. You can learn more at https://saucelabs.com/jobs/1893736943634164a9ad6f61750b6aba (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 296 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'JYOTHIN-MBP.local', ip: 'fe80:0:0:0:c6b3:1ff:fec2:cb65%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{enablePersistentHover=true, ie.fileUploadDialogTimeout=3000.0, platform=WINDOWS, ie.ensureCleanSession=false, ie.browserCommandLineSwitches=, requireWindowFocus=false, takesScreenshot=true, browserName=internet explorer, javascriptEnabled=true, unexpectedAlertBehaviour=dismiss, browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, hasMetadata=true, version=11, nativeEvents=true, elementScrollBehavior=0.0, webdriver.remote.sessionid=1893736943634164a9ad6f61750b6aba, initialBrowserUrl=about:blank, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true}]
+Session ID: 1893736943634164a9ad6f61750b6aba
+

@@ -1,0 +1,44 @@
+package saucelabs;
+
+import java.util.logging.Logger;
+
+import org.junit.Ignore;
+import org.junit.Test;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+
+import com.browserstack.benchmark.pages.OctanePage;
+
+@Ignore
+public class TestSuite3 extends SauceLabsParallelTestBase {
+  
+  private static final Logger LOGGER = Logger.getLogger(TestSuite3.class.getName());
+  
+  public TestSuite3 (String os, String version, String browser, String deviceName) {
+    super(os, version, browser, deviceName);
+  }
+  
+  @Test
+  public void performanceTests() {
+    testId = new String(Thread.currentThread().getStackTrace()[1].getMethodName()).hashCode();
+    long startPageLoadTime = System.currentTimeMillis();
+    OctanePage octanePage = OctanePage.visitPage(driver);
+    long endPageLoadTime = System.currentTimeMillis();
+    pageLoadTime = endPageLoadTime - startPageLoadTime;
+    
+    long startTestTime = System.currentTimeMillis();
+    octanePage.runTest();
+    octanePage.explicitWait();
+    testTime = System.currentTimeMillis() - startTestTime;
+    
+    String score = octanePage.getScore();
+    LogEntries logEntries = octanePage.getIndividualScores();
+    
+    LOGGER.info(score);
+    for(LogEntry logEntry: logEntries) {
+      LOGGER.info(logEntry.getMessage());
+    }
+  }
+  
+}
+
