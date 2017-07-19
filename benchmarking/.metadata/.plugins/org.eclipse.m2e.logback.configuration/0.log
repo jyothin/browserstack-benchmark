@@ -1,0 +1,69 @@
+2017-06-24 21:04:05,767 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-24 21:05:14,419 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.saucelabs:java-junit-selenium:1.0-SNAPSHOT @ /Users/Jyothin/competitors/Java-Junit-Selenium/pom.xml.
+2017-06-24 21:05:14,427 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.saucelabs:java-junit-selenium:1.0-SNAPSHOT @ /Users/Jyothin/competitors/Java-Junit-Selenium/pom.xml.
+2017-06-24 21:05:15,383 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:05:15,384 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/main/resources
+2017-06-24 21:05:15,387 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:05:15,388 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/test/resources
+2017-06-24 21:05:17,077 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.saucelabs:java-junit-selenium:1.0-SNAPSHOT @ /Users/Jyothin/competitors/Java-Junit-Selenium/pom.xml.
+2017-06-24 21:05:17,100 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:05:17,102 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/main/resources
+2017-06-24 21:05:17,105 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:05:17,106 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/test/resources
+2017-06-24 21:05:18,306 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:05:18,307 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/main/resources
+2017-06-24 21:05:18,310 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:05:18,310 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/test/resources
+2017-06-24 21:15:25,740 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-24 21:15:26,022 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.browserstack.benchmark:sauce:1.0-SNAPSHOT @ /Users/Jyothin/competitors/benchmark/sauce/pom.xml.
+2017-06-24 21:15:26,381 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sauce/src/main/java
+2017-06-24 21:15:26,387 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sauce/src/test/java
+2017-06-24 21:15:28,694 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-06-24 21:15:29,022 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:15:29,024 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:15:29,026 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:15:29,027 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:18:54,741 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:18:54,742 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:18:54,744 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:18:54,746 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:19:02,339 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:02,348 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/main/resources
+2017-06-24 21:19:02,350 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:02,351 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/Java-Junit-Selenium/src/test/resources
+2017-06-24 21:19:02,366 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:02,366 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:19:02,367 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:02,368 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:19:17,236 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:17,239 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:19:17,242 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:17,242 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:19:23,727 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:23,727 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:19:23,731 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:23,732 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:19:33,494 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:33,495 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:19:33,496 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:33,496 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:19:59,020 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:59,021 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:19:59,023 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:19:59,024 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:20:07,279 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:20:07,280 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:20:07,281 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:20:07,281 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:20:20,027 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:20:20,027 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:20:20,030 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:20:20,031 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:38:22,546 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:38:22,547 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:38:22,548 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:38:22,549 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
+2017-06-24 21:38:58,315 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:38:58,315 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/main/resources
+2017-06-24 21:38:58,316 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-24 21:38:58,317 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Jyothin/competitors/benchmark/sauce/src/test/resources
